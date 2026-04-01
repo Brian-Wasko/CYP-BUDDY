@@ -1,0 +1,33 @@
+{
+  "name": "buddy",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx server.ts",
+    "build": "vite build",
+    "lint": "tsc --noEmit",
+    "preview": "vite preview",
+    "start": "node server.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^1.30.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.4",
+    "lucide-react": "^0.555.0",
+    "ml-matrix": "^6.12.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-markdown": "^10.1.0",
+    "tsx": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

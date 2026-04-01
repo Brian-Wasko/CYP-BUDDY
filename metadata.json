@@ -1,0 +1,5 @@
+{
+  "name": "CYP-BUDDY",
+  "description": "CYP-BUDDY - CYP Bioinformatic Utility for Drug Detoxification in Yeast. A bioinformatics pipeline for studying cytochrome p450 variants in yeast, and generating experimental plans using Gemini. ",
+  "requestFramePermissions": []
+}
